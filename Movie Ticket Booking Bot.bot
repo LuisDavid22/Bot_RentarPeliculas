@@ -1,5 +1,5 @@
 {
-    "name": "Movie Ticket Booking Bot",
+    "name": "movieTicketBookingBot",
     "description": "",
     "services": [
         {
@@ -7,12 +7,12 @@
             "appId": "",
             "appPassword": "",
             "endpoint": "http://localhost:3978/api/messages",
-            "id": "44cdc830-817e-11e9-9686-39a72cda7630",
+            "id": "462e2910-83cf-11e9-bc49-a90eb43fa7f4",
             "name": "http://localhost:3978/api/messages"
         }
     ],
     "padlock": "",
     "version": "2.0",
     "overrides": null,
-    "path": "C:\\Users\\Luis Laureano\\MovieTicketBookingBot\\Movie Ticket Booking Bot.bot"
+    "path": "C:\\Users\\Luis Laureano\\Bot-MovieTicketBooking\\Movie Ticket Booking Bot.bot"
 }

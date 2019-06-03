@@ -33,10 +33,10 @@ intents.matches('Saludar',(session,args,next)=>{
 });
 
 let pelicula = new Pelicula();
-
+let listaPeliculas =  pelicula.BuscarPelicula(Pelicula);
 
 intents.matches('MostrarCartelera',(session,args,next)=>{
-    session.send('Ok, estas son las peliculas en cartelera: \n\n' + pelicula.BuscarPelicula());
+    session.send('Ok, estas son las peliculas en cartelera: \n\n' + listaPeliculas);
 
 });
 

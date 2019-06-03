@@ -6,9 +6,16 @@ let peliculaSchema = new db.Schema({
 	Director: String,	
 });
 
-peliculaSchema.methods.BuscarPelicula = function () {
+peliculaSchema.methods.BuscarPelicula =  function (model) {
 
-return 'Lista de peliculas';
+var texto =	  model.find(function (err, peliculas) {
+		if (err) return console.error(err);
+	
+
+		return peliculas[0].Titulo;
+	  })
+
+return texto;
 }
 
 var pelicula = db.model('pelicula', peliculaSchema);
